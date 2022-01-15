@@ -28,7 +28,7 @@ export default function Home() {
           </div>
 
           <h1 className={styles.title}>
-            "Welcome to Lady Land"
+            &quot;Welcome to Lady Land&quot;
           </h1>
 
           <h2 className={styles.strap}>The world, but female</h2>
@@ -138,7 +138,7 @@ export default function Home() {
               <img className={styles.headshot} src="/LL_Tash.jpg" alt="Tash Kahn" width={200} height={200} />
               <div className={styles.inner}>
                 <h3>Tash Kahn</h3>
-                <p>Tash Kahn’s practice is multi-faceted. She works with a variety of different mediums that all bleed into each other through a process of recycling and remaking. Each piece spawns countless others, negating the art object as a whole. Using sculpture, Polaroids, installation, film and collage, she documents the history of everyday life by recording the debris of the present. She is interested in how people engage with art, the conversations it generates and how it makes them feel.</p>
+                <p>Tash Kahn's practice is multi-faceted. She works with a variety of different mediums that all bleed into each other through a process of recycling and remaking. Each piece spawns countless others, negating the art object as a whole. Using sculpture, Polaroids, installation, film and collage, she documents the history of everyday life by recording the debris of the present. She is interested in how people engage with art, the conversations it generates and how it makes them feel.</p>
                 <p>Kahn has exhibited both nationally and internationally, with a recent project in Mumbai that saw her work with architects and writers to investigate the domestic space. In 2014, she co-founded the visual-arts project DOLPH, and has helped facilitate 22 exhibitions, making partnerships with two Lambeth primary schools, UAL Wimbledon, The Royal College of Art, as well as numerous artists in the UK, New York and Berlin. DOLPH provides an alternative way for the community to engage with contemporary art, as well as being an invaluable learning and networking resource for artists. She is also a freelance editor for Penguin and Sluice Magazine.</p>
               </div>
             </div>
