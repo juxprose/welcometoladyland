@@ -17,7 +17,7 @@ export default function Home() {
 
         <div className={styles.contacts}>
           <div>
-            <a href="mailto:welcometoladyland@gmail.com">Email us</a>&nbsp; - &nbsp;<a href="">Instagram</a>
+            <a href="mailto:welcometoladyland@gmail.com">Email us</a>&nbsp; - &nbsp;<a href="htttps://instagram.com/welcometoladyland">Instagram</a>
           </div>
         </div>
 
@@ -40,8 +40,8 @@ export default function Home() {
             <div className={styles.border}>
               <div className={styles.inner}>
                 <h3>Picture this.</h3>
-                <p>You're standing at the gates of a community, a town, a city - a society designed by women.</p>
-                <p>You're marvelling at the sight of a utopia that you never thought was possible.</p>
+                <p>You&apos;re standing at the gates of a community, a town, a city - a society designed by women.</p>
+                <p>You&apos;re marvelling at the sight of a utopia that you never thought was possible.</p>
                 <p>Somewhere inclusive, yet female-led.</p>
                 <p><strong></strong></p>
               </div>
@@ -49,17 +49,17 @@ export default function Home() {
           </div>
 
           <div className={`${styles.card} ${styles.cardTertiary}`}>
-            <form action="">
+            <form>
 
-              <textarea name="" rows="8" placeholder="When looking at that place in your mind can you finish this sentence with a hope for your own society to mimic it? Imagine if..."></textarea>
+              <textarea rows="8" placeholder="When looking at that place in your mind can you finish this sentence with a hope for your own society to mimic it? Imagine if..."></textarea>
 
               <div className={styles.formContacts}>
                 <div>
-                  <label for="name">Your name</label>
+                  <label htmlFor="name">Your name</label>
                   <input type="text" id="name" name="name" placeholder="Your name" />
                 </div>
                 <div>
-                  <label for="email">Your email</label>
+                  <label htmlFor="email">Your email</label>
                   <input type="email" id="email" name="email" placeholder="Your email" />
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default function Home() {
                 <h3>What to expect?</h3>
                 <p>Lady Land celebrates female designers, inventors, scientists, innovators, architects, researchers, writers, place-makers and artists by showcasing their ideas that advocate for womankind in all her forms. Our aim is to not only to do the thinking behind what Lady Land could look, feel and function like but also to one day realise that dream.</p>
                 <p>Lady Land will not exclude men, rather it will focus on a space where women play the central role. Lady Land is not a straight reversal of society, but a vision of a society built for and by women. Lady Land will consider whether society needs to unlearn capitalism and neo colonialism, as you cannot begin to dream of a utopia based on ideologies designed by and for men.</p>
-                <p>Lady Land will look to challenge the gender binary, dismantle toxic gender stereotypes and redefine and celebrate so-called "feminine" behaviours, such as empathy and emotion, as strengths. It will celebrate Matriarchy and the wild feminine - the mysterious, irrational, uncontrolled and unpredictable. </p>
+                <p>Lady Land will look to challenge the gender binary, dismantle toxic gender stereotypes and redefine and celebrate so-called &quot;feminine&quot; behaviours, such as empathy and emotion, as strengths. It will celebrate Matriarchy and the wild feminine - the mysterious, irrational, uncontrolled and unpredictable. </p>
               </div>
             </div>
           </div>
@@ -124,10 +124,10 @@ export default function Home() {
             <div className={styles.border}>
               <img className={styles.headshot} src="/LL_Renee.jpg" alt="Renée O'Drobinak" width={200} height={200} />
               <div className={styles.inner}>
-                <h3>Renée O'Drobinak</h3>
-                <p>Once described in PR Week as the 'Japanese Slovakian-American performance artist', Renee hails from a pretty unusual mix of cultures and professional experience - both as a contemporary artist and a built environment communications manager. </p>
+                <h3>Renée O&apos;Drobinak</h3>
+                <p>Once described in PR Week as the &apos;Japanese Slovakian-American performance artist&apos;, Renee hails from a pretty unusual mix of cultures and professional experience - both as a contemporary artist and a built environment communications manager. </p>
                 <p>A graduate of the Slade School of Fine Art and the London College of Communications, she has been a contemporary artist for over a decade as one half of the duo Ladies of the Press, specialising in live publishing and audience engagement. In the past she has led creative workshops for the likes of Tate, Southbank Centre and Wellcome Trust, and has jointly guest lectured on art and print at universities in London, Denver and Oslo.</p>
-                <p>In the meantime, she cut her teeth in built environment communications at an AJ100-listed conservation architecture practice where she was responsible for the practice's communications strategy and graphic design output for five years. She currently leads the communications team at Hawkins\Brown, one of the top 10 UK architecture practices according to the Architects’ Journal.  </p> 
+                <p>In the meantime, she cut her teeth in built environment communications at an AJ100-listed conservation architecture practice where she was responsible for the practice&apos;s communications strategy and graphic design output for five years. She currently leads the communications team at Hawkins\Brown, one of the top 10 UK architecture practices according to the Architects’ Journal.  </p> 
                 <p>Renee is a keen advocate for inclusivity in the creative profession: she is an alumnus of the BME PR Pros mentorship programme, volunteers as a mentor for I LIKE NETWORKING and sits on the steering committee for the built environment networking group Build Up.</p>
               </div>
             </div>
