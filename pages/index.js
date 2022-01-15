@@ -1,8 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Home() {
+
+  const [state, handleSubmit] = useForm("mwkyvlry");
+
+  if (state.succeeded) {
+    return <p>Thanks for your submission!</p>;
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +25,7 @@ export default function Home() {
 
         <div className={styles.contacts}>
           <div>
-            <a href="mailto:welcometoladyland@gmail.com">Email us</a>&nbsp; - &nbsp;<a href="htttps://instagram.com/welcometoladyland">Instagram</a>
+            <a href="mailto:welcometoladyland@gmail.com">Email us</a>&nbsp; - &nbsp;<a href="https://instagram.com/welcometoladyland">Instagram</a>
           </div>
         </div>
 
@@ -49,25 +57,31 @@ export default function Home() {
           </div>
 
           <div className={`${styles.card} ${styles.cardTertiary}`}>
-            <form>
 
-              <textarea rows="8" placeholder="When looking at that place in your mind can you finish this sentence with a hope for your own society to mimic it? Imagine if..."></textarea>
+            <form onSubmit={handleSubmit}>
+
+              <textarea id="message" name="message" rows="8" placeholder="When looking at that place in your mind can you finish this sentence with a hope for your own society to mimic it? Imagine if..." />
+              <ValidationError prefix="Message" field="message" errors={state.errors} />
 
               <div className={styles.formContacts}>
                 <div>
-                  <label htmlFor="name">Your name</label>
-                  <input type="text" id="name" name="name" placeholder="Your name" />
+                  <label htmlFor="name">Email Address</label>
+                  <input id="name" type="name" name="name" placeholder='Your name' />
+                  <ValidationError prefix="Name" field="name" errors={state.errors} />
                 </div>
                 <div>
-                  <label htmlFor="email">Your email</label>
-                  <input type="email" id="email" name="email" placeholder="Your email" />
+                  <label htmlFor="email">Email Address</label>
+                  <input id="email" type="email" name="email" placeholder='Your email' />
+                  <ValidationError prefix="Email" field="email" errors={state.errors} />
                 </div>
-              </div>
+              </div>      
 
-              <div>
-                <button>Tell us</button> 
-              </div>
+              <button type="submit" disabled={state.submitting}>
+                Submit
+              </button>
+              <ValidationError errors={state.errors} />
             </form>
+
           </div>
         </div>
 

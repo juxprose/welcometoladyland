@@ -52,6 +52,11 @@ input {
   margin-bottom: 1rem;
 }
 
+textarea:hover,
+input:hover {
+  background-color: #eee;
+}
+
 label {
   display: none;
 }
@@ -63,6 +68,11 @@ button {
   color: #fff;
   font-size: 1.2rem;
   width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--color-green-primary);
 }
 
 ::placeholder {

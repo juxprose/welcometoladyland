@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 70vh;
+  height: 650px;
   width: 100%;
   background-color: var(--color-grey);
   z-index: 0;
@@ -130,7 +130,6 @@
 
 .origin {
   margin-top: 3rem;
-  max-width: 60%;
 }
 
 .origin h2 {
@@ -141,11 +140,11 @@
   position: relative;
   z-index: 10;
   padding: 1rem 0;
-  max-width: 75%;
+
   margin: auto;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .grid {
     display: flex;
     justify-content: center;
@@ -158,7 +157,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-width: 100%;
   }
   .card {
     margin: 4rem 1rem 1rem;
@@ -168,5 +166,8 @@
   }
   .title {
     margin: 0 0 0 -1.8rem;
+  }
+  .origin {
+    max-width: 60%;
   }
 }
