@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Welcome to Lady Land</title>
+        <title>Welcome to Ladyland</title>
         <meta name="description" content="The world, but female" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
 
           <h1 className={styles.title}>
-            &quot;Welcome to Lady Land&quot;
+            &quot;Welcome to Ladyland&quot;
           </h1>
 
           <h2 className={styles.strap}>The world, but female</h2>
@@ -89,11 +89,11 @@ export default function Home() {
           <div className={`${styles.card} ${styles.cardTertiary}`}>
             <div className={styles.border}>
               <div className={styles.inner}>
-                <h3>“Welcome to Lady Land”</h3>
-                <p>In the vein of DisneyLand, Dismaland, and Dreamland, Lady Land is a fictional world based on an ideal. Imagine a world designed for and by women, one where public space is reclaimed so she is not subjected to the male gaze, where we can build a feminist utopia that provides a critique of gender itself.</p>
+                <h3>“Welcome to Ladyland”</h3>
+                <p>In the vein of DisneyLand, Dismaland, and Dreamland, Ladyland is a fictional world based on an ideal. Imagine a world designed for and by women, one where public space is reclaimed so she is not subjected to the male gaze, where we can build a feminist utopia that provides a critique of gender itself.</p>
                 <p>What would a world look like if the average woman was the norm? If neutral dress meant skirts rather than trousers? If there were more and bigger toilet cubicles available in public places? If parks felt safe to walk in alone at night and beauty standards and sexual pleasure designed for the female gaze?</p>
-                <p>Lady Land will go a step beyond the more popular commentary of feminism and delve deeper into the queer female experience, the mature female experience and the experience of women of colour. Who is the ‘average woman’ Lady Land is designed on? And how can it reflect upon critical global issues such as climate change and neo colonialism.</p>
-                <p>The aim of Lady Land is not a one size fits all solution, as no woman is the same as another, nor the same as themselves depending on their cycle or from morning to night. However there are some fundamentals that can be easily adapted to suit all women better (seatbelts, shelf heights, public transport) and a lot of exciting conversations to be had by women around their needs, and what a place like Lady Land could be like to better serve these needs.</p>
+                <p>Ladyland will go a step beyond the more popular commentary of feminism and delve deeper into the queer female experience, the mature female experience and the experience of women of colour. Who is the ‘average woman’ Ladyland is designed on? And how can it reflect upon critical global issues such as climate change and neo colonialism.</p>
+                <p>The aim of Ladyland is not a one size fits all solution, as no woman is the same as another, nor the same as themselves depending on their cycle or from morning to night. However there are some fundamentals that can be easily adapted to suit all women better (seatbelts, shelf heights, public transport) and a lot of exciting conversations to be had by women around their needs, and what a place like Ladyland could be like to better serve these needs.</p>
               </div>
             </div>
           </div>
@@ -102,16 +102,16 @@ export default function Home() {
             <div className={styles.border}>
               <div className={styles.inner}>
                 <h3>What to expect?</h3>
-                <p>Lady Land celebrates female designers, inventors, scientists, innovators, architects, researchers, writers, place-makers and artists by showcasing their ideas that advocate for womankind in all her forms. Our aim is to not only to do the thinking behind what Lady Land could look, feel and function like but also to one day realise that dream.</p>
-                <p>Lady Land will not exclude men, rather it will focus on a space where women play the central role. Lady Land is not a straight reversal of society, but a vision of a society built for and by women. Lady Land will consider whether society needs to unlearn capitalism and neo colonialism, as you cannot begin to dream of a utopia based on ideologies designed by and for men.</p>
-                <p>Lady Land will look to challenge the gender binary, dismantle toxic gender stereotypes and redefine and celebrate so-called &quot;feminine&quot; behaviours, such as empathy and emotion, as strengths. It will celebrate Matriarchy and the wild feminine - the mysterious, irrational, uncontrolled and unpredictable. </p>
+                <p>Ladyland celebrates female designers, inventors, scientists, innovators, architects, researchers, writers, place-makers and artists by showcasing their ideas that advocate for womankind in all her forms. Our aim is to not only to do the thinking behind what Ladyland could look, feel and function like but also to one day realise that dream.</p>
+                <p>Ladyland will not exclude men, rather it will focus on a space where women play the central role. Ladyland is not a straight reversal of society, but a vision of a society built for and by women. Ladyland will consider whether society needs to unlearn capitalism and neo colonialism, as you cannot begin to dream of a utopia based on ideologies designed by and for men.</p>
+                <p>Ladyland will look to challenge the gender binary, dismantle toxic gender stereotypes and redefine and celebrate so-called &quot;feminine&quot; behaviours, such as empathy and emotion, as strengths. It will celebrate Matriarchy and the wild feminine - the mysterious, irrational, uncontrolled and unpredictable. </p>
               </div>
             </div>
           </div>
         </div>
 
         <div className={styles.origin}>
-          <h2>Lady Land origin story</h2>
+          <h2>Ladyland origin story</h2>
           <h3>Four creatives in a pub on a cold January night...</h3>
           <p>Curator and Artistic Director, Charlie Levine, Contemporary Artist and Communications professional, Renée O’Drobinak, Artist, Tash Kahn, and Creative Learning & Participation professional, Victoria Patrick, stressed the importance of the need of female energy in their working day. Conversation moved to one of the women telling a tale of trying to reach some tomato juice from the top shelf in a supermarket. Unable to reach it the teller asked for help, a young man said ‘it’s there’ and pointed to the top shelf, before looking her up and down, noting her more petite frame and finally reaching up and getting her a bottle of tomato juice.</p>
           <p>What if, they thought, supermarkets were designed for women? What if the world was?</p>
