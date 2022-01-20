@@ -25,7 +25,11 @@ export default function Home() {
 
         <div className={styles.contacts}>
           <div>
-            <a href="mailto:welcometoladyland@gmail.com">Email us</a>&nbsp; - &nbsp;<a href="https://instagram.com/welcometoladyland">Instagram</a>
+            <a href="mailto:welcometoladyland@gmail.com">Email us</a>
+            &nbsp; - &nbsp;
+            <a href="https://instagram.com/welcometoladyland">Instagram</a>
+            &nbsp; - &nbsp;
+            <a href="https://medium.com/@welcometoladyland">Medium</a>            
           </div>
         </div>
 
