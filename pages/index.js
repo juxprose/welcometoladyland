@@ -29,7 +29,7 @@ export default function Home() {
             &nbsp; - &nbsp;
             <a href="https://instagram.com/welcometoladyland">Instagram</a>
             &nbsp; - &nbsp;
-            <a href="https://medium.com/@welcometoladyland">Medium</a>            
+            <a href="https://medium.com/@welcometoladyland">Notebook</a>            
           </div>
         </div>
 
