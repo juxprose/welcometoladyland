@@ -7,9 +7,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-<<<<<<< HEAD
-          <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet" />
-=======
          {/* Global Site Tag (gtag.js) - Google Analytics */}
          <script
             async
@@ -28,7 +25,6 @@ class MyDocument extends Document {
             }}
           />          
           <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet" />
->>>>>>> 677b492 (install GA)
         </Head>
         <body>
           <Main />
